@@ -1,0 +1,140 @@
+#container {
+    display: flex;
+}
+
+#leftside {
+    width: 320px;
+    height: 800px;
+    margin-left: 200px;
+    background-color: #ffc400;
+}
+
+#leftside img {
+    order: 2px solid black;
+    border-radius: 208px;
+    height: 200px;
+    width: 200px;
+    margin: 15px 23px 10px 35px;
+}
+
+.info {
+    margin: 6px 38px;
+    color: white;
+    font-weight: bold;
+}
+
+#firstline {
+    Border: 2px solid rgb(109, 109, 109);
+    width: 111px;
+    margin: 5px 38px;
+}
+
+#CONTACT table img{
+    
+    height: 20px;
+    width: 20px;
+    margin: 1px 30px;
+}
+#CONTACT table .values{
+    color: rgb(181, 174, 174);
+    
+    
+}
+#bars{
+    margin-left:  15px ;
+    
+}
+.para{
+    margin: -2px 15px;
+    color: #948e8e;
+
+}
+#firstinner{
+    background-color: rgb(42, 143, 150);
+    height: 8px;
+    width: 200px;
+    
+}
+#secondinner{background-color: rgb(42, 143, 150);
+    height: 8px;
+    width: 190px;
+
+}
+#thirdinner{background-color: rgb(42, 143, 150);
+    height: 8px;
+    width: 210px;
+
+}
+#fourthinner{background-color: rgb(42, 143, 150);
+    height: 8px;
+    width: 198px;
+
+}
+#fifthinner{background-color: rgb(42, 143, 150);
+    height: 8px;
+    width: 179px;
+
+}
+.outer{
+    height: 8px;
+    width: 223px;
+    background-color: rgb(196, 190, 190);
+    margin: 10px 15px;
+}
+
+.skillset{
+    margin: 10px 10px;
+}
+#temp
+{
+    background-color: rgb(171, 170, 170);
+    width: 648px;
+    height: 118px;
+    margin: 20px 20px;
+
+}
+.hobby{
+    margin: 10px 35px;
+    color: grey;
+
+}
+
+#rightside {
+    width: 692px;
+    height: 800px;
+    margin-right: 100px;
+    margin-left: 5px;
+    background-color: gray;
+}
+
+#name{
+    font-size: 40px;
+    margin: 5px 156px;
+    
+}
+#emp{
+    font-size: 17px;
+    margin: 9px 220px;
+}
+.topic{
+    margin: 10px 20px;
+    color: white;
+}
+
+.cont{
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+#table table td{
+    width: 500px;
+    column-gap: 20px;
+}
+
+#table li{
+ margin: 10px 0px ;
+}
+
+#last li{
+    margin-top: 10px;
+}

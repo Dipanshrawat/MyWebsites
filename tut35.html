@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations </title>
+
+    <style>
+        .container {
+            display: flex;
+            background-color: teal;
+        }
+
+        .Box {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            border: 2px solid violet;
+            position: relative;
+            animation-name: Karan;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-out;
+            /* animation-delay: 3s;*/
+        }
+
+
+
+
+ 
+        .Box {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            border: 2px solid violet;
+            position: relative;
+            animation-name: Karan1;
+            animation-duration: 8s;
+            animation-iteration-count: 5;
+            animation-fill-mode: alternate;
+            animation-timing-function: ease-out;
+            /* animation-delay: 3s; */
+
+ } 
+ 
+
+        @keyframes Karan {
+            from {
+                width: 100px;
+
+            }
+
+            to {
+                width: 1200px;
+
+            }
+        }
+
+        /* For moving Animations we can use percentage*/ 
+
+
+
+        @keyframes Karan1 {
+            0% {
+                top: 0px;
+                left: 0px;
+
+
+            }
+
+            25% {
+                left: 500px;
+                top: 0px;
+
+            }50%{
+                left: 500px;
+                top: 500px;
+
+            }
+
+            75% {
+                left: 0px;
+                top: 500px;
+                
+
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Box" id="box-1"></div>
+
+    </div>
+</body>
+
+</html>

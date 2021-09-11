@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating DOM Module</title>
+</head>
+<body>
+    <div id="container">
+        <ul id="navbar">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>More about us</li>
+            <li>Mobile number</li>
+        </ul>
+    </div>
+    <script>
+        let damn=document.getElementById('container');
+        console.log(damn);
+
+        // let select= document.querySelector('#navbar');
+        // console.log(select);
+
+        
+        let select= document.querySelectorAll('#navbar>li');
+        console.log(select);
+    </script>
+</body>
+
+</html>

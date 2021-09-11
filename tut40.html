@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Lines in CSS</title>
+    <style>
+        .container{
+            display: grid;
+
+            /* grid-template-columns: 100px 100px auto; */
+            grid-template-columns: 100px  auto  100px;
+            grid-template-columns: repeat(3,auto);
+            grid-gap: 5px;
+        }
+
+        .Myclass{
+            background-color: blue;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <items class="Myclass">This is item -1</items>
+        <items class="Myclass">This is item -2</items>
+        <items class="Myclass">This is item -3</items>
+        <items class="Myclass">This is item -4</items>
+        <items class="Myclass">This is item -5</items>
+        <items class="Myclass">This is item -6</items>
+        <items class="Myclass">This is item -7</items>
+        <items class="Myclass">This is item -8</items>
+        <items class="Myclass">This is item -9</items>
+        <items class="Myclass">This is item -10</items>
+    </div>
+    
+</body>
+</html>

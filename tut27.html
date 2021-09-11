@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility and z-index</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+
+        }
+
+        #box1 {
+            position: relative;
+            z-index: 31;
+            top:45px;
+            background-color: blue;
+        }
+
+        #box2 {
+           position: relative;
+            z-index: 32;
+            top: 20px;
+            background-color: rgb(0, 255, 64); 
+        }
+
+        #box3 {
+           position: relative;
+            z-index: 33;
+            top:18px;
+            /* visibility: hidden; It disappear but the space is reserved of that element */
+            /* display: none;It disappear but the space is not reserved it get coversed by the next element */
+            background-color: rgb(255, 0, 212);
+        }
+
+        #box4 {
+            position: relative;
+            
+            top:16px;
+            z-index: 34;
+            background-color: rgb(255, 208, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+
+</body>
+
+</html>

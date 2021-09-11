@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and listening</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello friends</h1>
+        <p id="para">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus earum odio maiores fuga animi incidunt, voluptatem assumenda at, architecto minus nisi iure, impedit maxime unde saepe id eum magnam voluptates labore deserunt sunt nihil. Cumque sapiente optio tempora maxime? Perspiciatis magni amet delectus iusto totam sit tempora tenetur quos.
+        </p>
+    </div>
+    <button id="btn" onclick="tooglehide()">show/hide</button>
+    <script>
+
+        
+        // let para=document.getElementById('para');
+        // para.addEventListener('mouseover',function run(){
+        //     alert('Mouse inside')
+        //     console.log("Mouse inside");
+        // });
+        // para.addEventListener('mouseout',function run(){
+        //     alert('Mouse outside')
+        //     console.log("mouse outside");
+        // });
+
+
+  
+        function tooglehide(){
+            let para=document.getElementById('para');
+            let btn=document.getElementById('btn');
+            if(para.style.display!='none'){
+                para.style.display='none'
+            }else{
+                para.style.display='block';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

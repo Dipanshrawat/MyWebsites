@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow And Text Shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 5px;
+            margin: 15px;
+            /* border: 2px solid red; */
+            background-color: #555580;
+
+
+
+
+            /* box Shadow syntax:
+          
+           "offset(x in px)       offset(y in px)      blur-radius(in px)     spread-radius(in px)      color' */
+
+            box-shadow: 10px 10px 10px 10px blueviolet;
+
+            box-shadow: 10px 10px 10px 10px green, 30px 30px 10px 10px yellow;
+        }
+
+        h2 ,p{
+
+            font-weight: bold;
+            text-shadow: 5px 5px #782424;
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+
+            <h2>THis is First Box</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nemo, impedit nobis explicabo distinctio
+                animi soluta dolorum earum a? Quod quibusdam nobis facilis, voluptas illo illum odit consectetur
+                explicabo rem?</p>
+        </div>
+
+
+        <div class="card" id="card-2">
+
+            <h2>THis is Second Box</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quae fuga ea ut similique accusamus
+                maiores excepturi magni quam itaque animi aliquam molestias, tempore ab temporibus libero reiciendis
+                repudiandae aperiam.</p>
+        </div>
+
+        <div class="card" id="card-3">
+
+            <h2>THis is THird Box</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero, molestiae ad laboriosam totam
+                tempore? Iure eveniet tenetur placeat neque ex voluptas voluptate molestiae, nobis ratione earum numquam
+                libero adipisci??</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
